@@ -1,6 +1,7 @@
 public class Selection_Sort {
 
     public static void SelectionSort(int arr[]){
+        // loop to find smallest number
         for (int i = 0; i < arr.length-1; i++) {
             int minpos = i;
             for (int j = i+1; j < arr.length; j++) {
